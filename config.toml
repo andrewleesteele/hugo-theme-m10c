@@ -1,0 +1,47 @@
+baseURL = "https://asteele.me"
+languageCode = "en-us"
+title = "Andrew Steele"
+description = "SUP ANDREW IS COOL"
+canonifyURLs = true
+enableEmoji = true
+googleAnalytics = "UA-XXXXXX-1"
+
+theme = "pristine"
+
+[params]
+    portrait = "img/portrait.jpg"
+    job = "Solutions Engineer"
+    company = "tray.io"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "All Articles"
+  url = "/all/"
+  weight = 2
+
+
+[[menu.projects]]
+  name = "Pristine - A Hugo Theme"
+  url = "https://github.com/sakibccr/pristine"
+  weight = 1
+
+
+[[params.social]]
+    title = "Email"
+    url = "mailto:andrewleesteele@gmail.com"
+[[params.social]]
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/andrewleesteele/"
+[[params.social]]
+    title = "Github"
+    url = "https://github.com/andrewleesteele"
+[[params.social]]
+    title = "Facebook"
+    url = "https://www.facebook.com/andrewleesteele1"
+
+
+
